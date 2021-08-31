@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /* 마우스 올렸을때 */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header {
+  box-shadow: 0px 1px 10px rgba(37, 76, 184, 0.233);
+  height: 70px;
+}
+.header > .nav {
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+  width: calc(100% - 100px);
+  height: 70px;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgray;
+}
+
+#notice {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.nav > a {
+  float: left;
+  margin-left: 20px;
+  line-height: 70px;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.menu > li {
+  float: left;
+  margin-left: 20px;
+  line-height: 70px;
+}
+
+.menu > li:last-child {
+  margin-right: 10px;
+}
+
+.menu-item {
+  color: rgba(156, 145, 170, 0.678);
+}
+
+.menu-item:hover {
+  color: rgba(131, 14, 241, 0.678);
+}

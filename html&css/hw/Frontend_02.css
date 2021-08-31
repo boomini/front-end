@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.title {
+  font-family: "Audiowide", sans-serif;
+}
+.header img {
+  width: 150px;
+  height: 150px;
+}
+.content {
+  height: 700px;
+  font-size: large;
+  float: left;
+  width: 3000px;
+  background-color: blanchedalmond;
+}
+
+.content-left {
+  float: left;
+  margin: 130px 10px 130px 10px;
+  padding: 10px;
+}
+
+hr {
+  background-color: rgb(160, 145, 173);
+  height: 2px;
+}
+.content-right {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 1000px;
+}
+
+.content-card {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  color: rgb(59, 2, 52);
+}
+.content-head {
+  color: rgb(163, 177, 189);
+}
+.content-content {
+  color: grey;
+}

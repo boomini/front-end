@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  /* 마우스 올렸을때 */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header {
+  height: 70px;
+  box-shadow: 0px 1px 10px rgba(37, 76, 184, 0.233);
+}
+
+.header > .nav {
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+  width: calc(100% - 120px);
+  height: 70px;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(131, 14, 241, 0.678);
+}
+
+.nav > a {
+  float: left;
+  margin-left: 20px;
+  line-height: 70px;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.menu > li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.menu > li:last-child {
+  margin-right: 10px;
+}
+
+.menu-item {
+  color: rgba(156, 145, 170, 0.678);
+}
+
+.menu-item:hover {
+  color: rgba(131, 14, 241, 0.678);
+}
+
+.content {
+  margin: 10px auto;
+  max-width: 1200px;
+  width: calc(100% - 120px);
+}
+
+.content-left {
+  width: 25%;
+  float: left;
+}
+
+.content-left-profile {
+  margin: 10px auto;
+  height: 150px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+.content-left-vote {
+  border: 1px solid;
+  padding: 10px;
+  min-height: 300px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+.vote-title {
+  padding-bottom: 10px;
+  color: rgba(34, 0, 155, 0.678);
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.vote-question {
+  font-weight: bold;
+  font-size: 16px;
+  color: crimson;
+}
+
+.vote-answer {
+  margin-top: 10px;
+}
+
+.vote-answer li {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.vote-answer li:last-child {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  height: 25px;
+  width: 80px;
+  margin: 10px 2px;
+}
+
+.btn-primary {
+  background-color: rgb(63, 82, 194);
+  color: white;
+}
+
+.vote-button {
+  text-align: right;
+}
+#btn-makevote {
+  width: 100%;
+  margin-bottom: 10px;
+  border-color: darkmagenta;
+  background-color: rgba(131, 14, 241, 0.678);
+  color: blanchedalmond;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.vote-date {
+  font-weight: 10px;
+  color: cornflowerblue;
+}
+
+/*중앙 article*/
+.content-section {
+  width: 74.5%;
+  float: right;
+}
+
+.content-section-article {
+  margin: 10px;
+  padding: 5px;
+  max-width: 900px;
+  height: 150px;
+  border: 1px solid lightblue;
+}
+/* .content-right {
+  width: 75%;
+  float: right;
+} */
+
+.footer {
+  clear: both;
+  /* 더이상 위의 float에 영향을 받지 말아라 */
+  margin: 10px auto;
+  max-width: 1200px;
+  height: 70px;
+  padding: 10px;
+}
+
+.footer ul {
+  float: right;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 50px;
+  font-size: 13px;
+  color: darkgray;
+}
