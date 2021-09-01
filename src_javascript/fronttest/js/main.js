@@ -44,7 +44,7 @@ window.onload = function () {
     
   }
   document.getElementById("btn-makepoll").onclick = function () {
-    window.open("./makepoll.html", "mp", "width=500, height=500, top=200, left=300");
+    window.open("./makepoll.html", "mp", "width=500, height=500, top=0, left=0");
   };
 };
 
